@@ -1,0 +1,38 @@
+{
+    "version": 3,
+    "cmakeMinimumRequired": {
+        "major": 3,
+        "minor": 22,
+        "patch": 0
+    },
+    "configurePresets": [
+        {
+            "name": "cross-config",
+            "description": "Build using Ninjagenerator",
+            "generator": "Ninja",
+            "binaryDir": "${sourceParentDir}/bin_${sourceDirName}",
+            "hidden":false,
+            "cacheVariables": {
+                "CMAKE_MAKE_PROGRAM": {
+                    "type": "STRING",
+                    "value": "ninja"
+                },
+                "CMAKE_TOOLCHAIN_FILE": {
+                    "type": "STRING",
+                    "value": "${workspaceFolder}/toolchain-arm32.cmake"
+                },
+                "CMAKE_BUILD_TYPE": {
+                    "type": "STRING",
+                    "value": "Debug"
+                }
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "cross-build",
+            "configurePreset": "cross-config",
+            "jobs": 7
+        }
+    ]
+}

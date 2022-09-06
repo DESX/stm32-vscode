@@ -1,0 +1,30 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.startupEditor": "readme",
+    "cmake.autoSelectActiveFolder": false,
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "cmake.configureOnOpen": true,
+    "cortex-debug.enableTelemetry": false,
+    "telemetry.telemetryLevel": "off",
+    "files.associations": {
+        "main.h": "c",
+        "stm32mp1xx_hal.h": "c",
+        "stm32f4xx_hal.h": "c",
+        "stm32f4xx_hal_conf.h": "c",
+        "*.def": "cpp",
+        "chrono": "cpp",
+        "target.h": "c",
+        "*.ipp": "cpp",
+        "*.tcc": "cpp",
+        "uuip.h": "c",
+        "eth_utils.h": "c",
+        "stm32_utils.h": "c",
+        "mac_filter.h": "c",
+        "encoder_pins.h": "c",
+        "board_pins.h": "c",
+        "wolfboot.h": "c"
+    },
+    "cortex-debug.variableUseNaturalFormat": false
+}

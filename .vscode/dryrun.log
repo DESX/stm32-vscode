@@ -1,0 +1,6 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory `c:/Users/Joel Chenette/Downloads/vscode2/vscode'
+make.exe: Leaving directory `c:/Users/Joel Chenette/Downloads/vscode2/vscode'
+ 
+make.exe: *** No targets specified and no makefile found.  Stop.
+

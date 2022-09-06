@@ -1,0 +1,304 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+ 
+
+# Make data base, printed on Fri Aug 12 07:27:21 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile
+MAKEFLAGS = Rrqp
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := c:/Users/Joel Chenette/Downloads/vscode2/vscode
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+ONEDRIVE = C:\Users\Joel Chenette\OneDrive
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile
+MAKEFILE_LIST := 
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+TMP = C:\Users\JOELCH~1\AppData\Local\Temp
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_CWD = C:\Users\Joel Chenette\AppData\Local\Programs\Microsoft VS Code
+# environment
+PATH = C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\libnvvp;;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.2.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\Git LFS;C:\Program Files\Pandoc\;C:\Program Files\CMake\bin;C:\Users\Joel Chenette\AppData\Local\Microsoft\WindowsApps;C:\Users\Joel Chenette\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Joel Chenette\Downloads\hashcat-6.2.5;C:\src\flutter\bin;C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\11.2 2022.02\bin\;C:\Program Files (x86)\GnuWin32\bin\;C:\Users\Joel Chenette\Downloads\ninja-win;C:\Program Files (x86)\STMicroelectronics\stlink_server;;C:\Program Files\JetBrains\IntelliJ IDEA 2022.2\bin;
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+GIT_LFS_PATH = C:\Program  
+make.exe: *** No rule to make target `all'.  Stop.
+
+Files\Git LFS
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\Joel Chenette
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+NUMBER_OF_PROCESSORS = 16
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives
+# environment
+NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
+# environment
+INTELLIJ IDEA = C:\Program Files\JetBrains\IntelliJ IDEA 2022.2\bin;
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_13628_YSXPLOFLJRMGWKAW
+# environment
+COMPUTERNAME = WIN1456
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = Joel Chenette
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Joel Chenette\AppData\Roaming\Code\CachedData\b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\WIN1456
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = WIN1456
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# default
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := 
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LOCALAPPDATA = C:\Users\Joel Chenette\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\c6fd857f014a1686dde4fe3eafd7e81a-1.69.1-main-sock
+# environment
+HOMEPATH = \Users\Joel Chenette
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\Joel Chenette\AppData\Roaming
+# environment
+TEMP = C:\Users\JOELCH~1\AppData\Local\Temp
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# environment
+CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 8d01
+# environment
+MAKELEVEL := 0
+# environment
+CUDA_PATH_V11_7 = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 13628
+# environment
+USERDOMAIN_ROAMINGPROFILE = WIN1456
+# variable set hash-table stats:
+# Load=90/1024=9%, Rehash=0, Collisions=9/107=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# : could not be stat'd.
+# C:\Program Files\Common Files\Oracle\Java\javapath (key C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1654870665): 6 files, no impossibilities.
+# C:\Program Files\Docker\Docker\resources\bin (key C:/Program Files/Docker/Docker/resources/bin, mtime 1654871954): 13 files, no impossibilities.
+# C:\Program Files\Pandoc\ (key C:/Program Files/Pandoc/, mtime 1656519845): 6 files, no impossibilities.
+# C:\Users\Joel Chenette\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/Joel Chenette/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1657879612): 4 files, no impossibilities.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1633528630): 30 files, no impossibilities.
+# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1657924115): 169 files, no impossibilities.
+# . (key c:/Users/Joel Chenette/Downloads/vscode2/vscode, mtime 1657894724): 13 files, no impossibilities.
+# C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\libnvvp (key C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/libnvvp, mtime 1655143567): 14 files, no impossibilities.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1655141654): 10 files, no impossibilities.
+# C:\src\flutter\bin (key C:/src/flutter/bin, mtime 1656682314): 9 files, no impossibilities.
+# C:\Program Files\JetBrains\IntelliJ IDEA 2022.2\bin (key C:/Program Files/JetBrains/IntelliJ IDEA 2022.2/bin, mtime 1659554794): 31 files, no impossibilities.
+# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1655901625): 8 files, no impossibilities.
+# C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.2.0\ (key C:/Program Files/NVIDIA Corporation/Nsight Compute 2022.2.0/, mtime 1655141569): 12 files, no impossibilities.
+# C:\Program Files (x86)\VMware\VMware Workstation\bin\ (key C:/Program Files (x86)/VMware/VMware Workstation/bin/, mtime 1659016477): 4 files, no impossibilities.
+# C:\Windows\System32\OpenSSH\: could not be stat'd.
+# C:\Program Files\PuTTY\ (key C:/Program Files/PuTTY/, mtime 1655484070): 12 files, no impossibilities.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1654870545): 5 files, no impossibilities.
+# C:\Users\Joel Chenette\AppData\Local\Microsoft\WindowsApps (key C:/Users/Joel Chenette/AppData/Local/Microsoft/WindowsApps, mtime 1660235324): 26 files, no impossibilities.
+# C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin (key C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/bin, mtime 1655143573): 45 files, no impossibilities.
+# C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\11.2 2022.02\bin\ (key C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/11.2 2022.02/bin/, mtime 1657889220): 33 files, no impossibilities.
+# C:\Windows (key C:/Windows, mtime 1658938687): 118 files, no impossibilities.
+# C:\Program Files (x86)\Gpg4win\..\GnuPG\bin (key C:/Program Files (x86)/GnuPG/bin, mtime 1654690347): 27 files, no impossibilities.
+# C:\Users\Joel Chenette\Downloads\ninja-win (key C:/Users/Joel Chenette/Downloads/ninja-win, mtime 1657892456): 3 files, no impossibilities.
+# C:\Program Files (x86)\STMicroelectronics\stlink_server (key C:/Program Files (x86)/STMicroelectronics/stlink_server, mtime 1657900556): 6 files, no impossibilities.
+# C:\ProgramData\DockerDesktop\version-bin: could not be stat'd.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1654690196): 8 files, no impossibilities.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1660303500): 2949 files, no impossibilities.
+# C:\Program Files\Git LFS (key C:/Program Files/Git LFS, mtime 1656513332): 5 files, no impossibilities.
+# C:\Program Files\CMake\bin (key C:/Program Files/CMake/bin, mtime 1657890406): 7 files, no impossibilities.
+# C:\Program Files (x86)\GnuWin32\bin\ (key C:/Program Files (x86)/GnuWin32/bin/, mtime 1657891036): 5 files, no impossibilities.
+# C:\Users\Joel Chenette\Downloads\hashcat-6.2.5 (key C:/Users/Joel Chenette/Downloads/hashcat-6.2.5, mtime 1655487308): 31 files, no impossibilities.
+
+# 3609 files, no impossibilities in 32 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=5/1024=0%, Rehash=0, Collisions=0/16=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 0
+# # of strcache buffers: 0
+# strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
+# strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
+
+# Finished Make data base on Fri Aug 12 07:27:21 2022
+
+ 
