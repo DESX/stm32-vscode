@@ -6,9 +6,11 @@
             "request": "launch",
             "servertype": "stlink",
             "cwd": "${command:cmake.launchTargetDirectory}",
-            "executable": "./blink",
+            "executable": "./blink2",
             "name": "Debug (ST-Util)",
-            "device": "STM32F103RB",
+            //"device": "STM32F103RB",
+            "device": "STM32L432CB",
+            "showDevDebugOutput": "raw",
             "v1": false
         }
     ]

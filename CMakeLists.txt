@@ -2,24 +2,28 @@ cmake_minimum_required(VERSION 3.10)
 
 project(nucf0-blink C ASM)
 
+add_subdirectory(nucleo32)
+
+set(F0_SRC  Drivers/STM32F0xx_HAL_Driver/Src)
+
 set(C_SOURCES
     startup_stm32f030x8.s
     Src/stm32f0xx_hal_msp.c
-    Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c
-    Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c
-    Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c
-    Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c
-    Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c
-    Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c
-    Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c
-    Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c
-    Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c
-    Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c
-    Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c
-    Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c
-    Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c
-    Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c
-    Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.c
+    ${F0_SRC}/stm32f0xx_hal_tim.c
+    ${F0_SRC}/stm32f0xx_hal_tim_ex.c
+    ${F0_SRC}/stm32f0xx_hal_rcc.c
+    ${F0_SRC}/stm32f0xx_hal_rcc_ex.c
+    ${F0_SRC}/stm32f0xx_hal.c
+    ${F0_SRC}/stm32f0xx_hal_i2c.c
+    ${F0_SRC}/stm32f0xx_hal_i2c_ex.c
+    ${F0_SRC}/stm32f0xx_hal_gpio.c
+    ${F0_SRC}/stm32f0xx_hal_dma.c
+    ${F0_SRC}/stm32f0xx_hal_cortex.c
+    ${F0_SRC}/stm32f0xx_hal_pwr.c
+    ${F0_SRC}/stm32f0xx_hal_pwr_ex.c
+    ${F0_SRC}/stm32f0xx_hal_flash.c
+    ${F0_SRC}/stm32f0xx_hal_flash_ex.c
+    ${F0_SRC}/stm32f0xx_hal_exti.c
     Src/system_stm32f0xx.c
     Src/stm32f0xx_it.c
     Src/main.c
