@@ -97,6 +97,7 @@ set(LD_FLAGS
     -mcpu=cortex-m4
     -mthumb
     -specs=nano.specs
+    -specs=nosys.specs
     -T${BASE}/STM32L432KCUx_FLASH.ld
     -lc
     -lm
