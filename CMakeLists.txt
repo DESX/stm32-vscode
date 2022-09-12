@@ -2,8 +2,10 @@ cmake_minimum_required(VERSION 3.10)
 
 project(nucf0-blink C ASM)
 
-add_subdirectory(nucleo32)
+add_subdirectory(boards/nucleo-l432kc/apps)
 
+
+#[[
 set(F0_SRC  Drivers/STM32F0xx_HAL_Driver/Src)
 
 set(C_SOURCES
@@ -105,3 +107,4 @@ target_compile_options(blink PRIVATE
 )
 
 target_link_options(blink PRIVATE ${LD_FLAGS})
+]]
