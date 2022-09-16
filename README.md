@@ -21,3 +21,13 @@ To generate a new set of source code using cubemx
        1. Select "Add necessary library files as reference..."
  3. Other values should be good as default
  4. Click GENERATE
+
+
+Prerequisits: 
+  1. VSCode
+  2. CMake
+  3. Arm toolchian
+  4. Ninja Build system
+
+
+

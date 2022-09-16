@@ -18,11 +18,10 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "string.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "string.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -109,11 +108,12 @@ int main(void)
   const char * tx_msg = "hello";
   size_t msg_len = strlen(tx_msg);
   uint8_t rx_msg[100];
-  
+   
   while (1)
   {
 
     HAL_SPI_TransmitReceive_DMA(&hspi1,(uint8_t*)tx_msg,(uint8_t*)rx_msg,msg_len);
+    //HAL_SPI_TransmitReceive(&hspi1,(uint8_t*)tx_msg,(uint8_t*)rx_msg,msg_len,100000);
     //printf("beat")
     volatile unsigned long int delay = BLINK_S;
     while(--delay);
@@ -207,7 +207,7 @@ static void MX_SPI1_Init(void)
   hspi1.Init.DataSize = SPI_DATASIZE_8BIT;
   hspi1.Init.CLKPolarity = SPI_POLARITY_LOW;
   hspi1.Init.CLKPhase = SPI_PHASE_1EDGE;
-  hspi1.Init.NSS = SPI_NSS_SOFT;
+  hspi1.Init.NSS = SPI_NSS_HARD_OUTPUT;
   hspi1.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_2;
   hspi1.Init.FirstBit = SPI_FIRSTBIT_MSB;
   hspi1.Init.TIMode = SPI_TIMODE_DISABLE;
