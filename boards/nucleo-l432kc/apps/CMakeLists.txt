@@ -102,7 +102,7 @@ set(LD_FLAGS
     -lc
     -lm
     -lnosys
-    -Wl,-Map=${CMAKE_CURRENT_BIN_DIR}/blink.map,--cref
+    -Wl,-Map=${CMAKE_CURRENT_BINARY_DIR}/blink.map,--cref
     -Wl,--gc-sections
 
     )
